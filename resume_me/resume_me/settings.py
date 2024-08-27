@@ -23,5 +23,7 @@ DATABASES = {
     }
 }
 
-# Add OpenAI API key
-OPENAI_API_KEY = 'your_openai_api_key_here'
+
+DEBUG = False  # Ensure this is set to False for production
+
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']  # Add your domain names here
